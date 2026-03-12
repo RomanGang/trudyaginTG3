@@ -1,0 +1,27 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases / artifacts
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.vite/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
